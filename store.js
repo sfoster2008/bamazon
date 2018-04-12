@@ -5,8 +5,8 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "insecure",
-  database: "bamazon"
+  password: "root",
+  database: "bamazonWB"
 });
 
 connection.connect(function(err) {
@@ -78,3 +78,4 @@ var buyItem = function() {
     });
   });
 };
+
